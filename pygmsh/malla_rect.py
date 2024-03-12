@@ -11,7 +11,7 @@ with pygmsh.geo.Geometry() as geom:
             [1.0, 1.0],
             [0.0, 1.0],
         ],
-        mesh_size=0.1,
+        mesh_size=0.01,
     )
     mesh = geom.generate_mesh()
 
